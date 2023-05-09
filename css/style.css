@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+/* ===== common css starts ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+/* ===== common css ends ===== */
+/* ===== variavle area starts ===== */
+:root{
+  --brand: #0872b9;
+  --col2: #5bc5f4;
+  --white: #fff;
+  --pfont: 'Open Sans', sans-serif;
+  --hfont: 'Oswald', sans-serif;
+}
+/* ===== variavle area ends ===== */
+/* ===== header css starts ===== */
+#header{
+  line-height: 32px;
+  background: var(--brand);
+  /* position: sticky;
+  top: 0; */
+}
+#header .header{
+  display: flex;
+  justify-content: space-between;
+}
+#header .header .header-text p{
+  font-family: var(--pfont);
+  font-size: 14px;
+  text-transform: capitalize;
+  color: var(--white);
+}
+#header .header .header-icon ul{
+  display: flex;
+  align-items: center;
+}
+#header .header .header-icon ul li a i{
+  color: var(--white);
+  line-height: 32px;
+  margin-left: 24px;
+  transition: all linear 0.4s;
+}
+#header .header .header-icon ul li a i:hover {
+  color: #353535;
+}
+/* ===== header css ends ===== */
+/* ===== menu css starts ===== */
+#menu{
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  transition: all linear .5s;
+  z-index: 99999;
+  border-bottom: 1px solid #d6d5d5;
+}
+#menu .navbar ul li a{
+  color: #353535;
+  text-transform: capitalize;
+  font-family: var(--pfont);
+  font-size: 14px;
+  transition: all linear 0.4s;
+  padding: 0;
+  margin-left: 20px;
+}
+#menu .navbar ul li a:hover{
+  color: var(--brand);
+}
+#menu .navbar .navbar-toggler{
+  color: var(--brand);
+  border-color: var(--brand);
+}
+#menu .navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+/* ===== menu css ends ===== */
+/* ===== banner css starts ===== */
+#banner{
+  background: url(../images/banner.png) no-repeat center / cover;
+  padding: 100px 0;
+  /* margin-top: 70px; */
+}
+#banner .contents{
+  text-align: right;
+}
+#banner .contents h2{
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--hfont);
+  font-weight: normal;
+  font-size: 30px;
+}
+#banner .contents h1{
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--hfont);
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+#banner .contents p{
+  color: var(--white);
+  font-family: var(--pfont);
+  font-size: 13px;
+  padding-left: 650px;
+  line-height: 24px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+#banner .contents a{
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--hfont);
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #fff;
+  line-height: 31px;
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 16px;
+  margin-top: 20px;
+  transition: all linear 0.3s;
+}
+#banner .contents a:hover{
+  background: var(--brand);
+  border-color: var(--brand);
+}
+/* ===== banner css ends ===== */
+
+/* ===== common heading css starts ===== */
+.common-heading .heading{
+  text-align: center;
+  position: relative;
+  margin-bottom: 35px;
+}
+.common-heading h3 {
+  color: #353535;
+  text-transform: uppercase;
+  font-family: var(--hfont);
+  font-weight: 500;
+  font-size: 24px;
+}
+.common-heading .line {
+  position: absolute;
+  top: 12px;
+}
+.common-heading .line .line1 {
+  width: 47px;
+  height: 1px;
+  background: #0872b9;
+  display: inline-block;
+  margin-right: 1px;
+}
+.common-heading .line .line2 {
+  width: 3px;
+  height: 1px;
+  background: #0872b9;
+  display: inline-block;
+  margin-right: -1px;
+}
+.common-heading .line .line3 {
+  width: 2px;
+  height: 1px;
+  background: #0872b9;
+  display: inline-block;
+  margin-right: -1px;
+}
+.common-heading .line .line4 {
+  width: 1px;
+  height: 1px;
+  background: #0872b9;
+  display: inline-block;
+}
+/* ===== common heading css ends ===== */
+
+
+/* ===== about css starts ===== */
+#about{
+  padding-top: 60px;
+}
+#about .common-heading .line{
+  left: 600px;
+}
+#about .text-area p{
+  padding-top: 43px;
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+  color: #555555;
+  line-height: 24px;
+}
+#about .text-area p:last-of-type{
+  padding-top: 30px;
+}
+/* ===== about css ends ===== */
+/* ===== services css starts ===== */
+#services{
+  padding-top: 60px;
+}
+#services .common-heading .line{
+  left: 582px;
+}
+#services .service-item{
+  background: #f1f1f1;
+  text-align: center;
+  position: relative;
+  transition: all linear 0.3s;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+#services .service-item:hover{
+  box-shadow: 1px 1px 5px 1px gray;
+}
+#services .service-item:hover .box1 .box2{
+  border-color: var(--col2);
+}
+#services .service-item:hover .box1 .box2 .box3{
+  background: var(--col2);
+}
+#services .service-item .service-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#services .service-item .service-icon .box1{
+  width:80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services .service-item .service-icon .box2{
+  width: 75px;
+  height: 75px;
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear 0.3s;
+}
+#services .service-item .service-icon .box3{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 50%;
+  transition: all linear 0.3s;
+}
+#services .service-item h4{
+  text-transform: uppercase;
+  color: #353535;
+  font-size: 16px;
+  font-family: var(--hfont);
+  font-weight: 500;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+#services .service-item p{
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+  color: #555555;
+  line-height: 24px;
+  padding: 0 30px;
+}
+/* ===== services css ends ===== */
+
+/* ===== gallery css starts ===== */
+#gallery{
+  padding-top: 60px;
+}
+#gallery .common-heading .line{
+  left: 575px;
+}
+#gallery .image-area .image{
+  position: relative;
+  overflow: hidden;
+}
+#gallery .image-area .image .gl-overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: all linear 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gallery .image-area .image:hover .gl-overlay{
+  top: 0;
+}
+#gallery .image-area .image .gl-overlay i{
+  width: 40px;
+  height: 40px;
+  color: var(--white);
+  background: var(--col2);
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+#gallery .image-area .image .gl-overlay i:hover{
+  transform: scale(1.1);
+}
+/* ===== gallery css ends ===== */
+/* ===== team css starts ===== */
+#team{
+  padding-top: 60px;
+}
+#team .common-heading .line{
+  left: 602px;
+}
+#team .team-item{
+  text-align: center;
+}
+#team .team-item h4{
+  text-transform: uppercase;
+  font-family: var(--hfont);
+  font-weight: 500;
+  font-size: 16px;
+  color: #353535;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  transition: all linear 0.4s;
+}
+#team .team-item:hover h4{
+  color: var(--col2);
+}
+#team .team-item p {
+  text-transform: capitalize;
+  font-family: var(--hfont);
+  font-size: 14px;
+  color: #555555;
+}
+#team .team-item .team-image {
+  position: relative;
+  overflow: hidden;
+  transition: all linear 0.4s;
+}
+#team .team-item:hover .team-image {
+  box-shadow: 0px 0px 2px gray;
+}
+#team .team-item .team-image .team-overlay {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: -80px;
+  transition: all linear 0.4s;
+}
+#team .team-item:hover .team-image .team-overlay {
+  right: 0;
+}
+#team .team-item .team-image .team-overlay ul li {
+  margin-bottom: 15px;
+}
+#team .team-item .team-image .team-overlay ul li:last-child {
+  margin-bottom: 0;
+}
+#team .team-item .team-image .team-overlay ul li i {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: all linear 0.4s;
+}
+#team .team-item .team-image .team-overlay ul li i:hover {
+  background: #5bc5f4;
+  border-color: #5bc5f4;
+}
+/* ===== team css ends ===== */
+/* ===== testimonial css starts ===== */
+#testimonial{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#testimonial .common-heading .line{
+  left: 590px;
+}
+#testimonial .testimonial-item {
+  text-align: center;
+}
+#testimonial .testimonial-item .testimonial-text {
+  background: #f1f1f1;
+  margin-top: 35px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 1px;
+}
+#testimonial .testimonial-item .testimonial-text::before {
+  content: " ";
+  height: 50px;
+  width: 50px;
+  background: #f1f1f1;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -1;
+}
+#testimonial .testimonial-item .testimonial-text h4 {
+  font-family: var(--hfont);
+  font-weight: 500;
+  font-size: 16px;
+  color: #353535;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+#testimonial .testimonial-item .testimonial-text ul {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+#testimonial .testimonial-item .testimonial-text ul li {
+  color: #5bc5f4;
+  margin-right: 5px;
+}
+#testimonial .testimonial-item .testimonial-text ul li:last-child{
+  margin-right: 0;
+}
+#testimonial .testimonial-item  .testimonial-text  h6 {
+  font-family: var(--hfont);
+  color: #555555;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#testimonial .testimonial-item .testimonial-text p {
+  font-family: var(--hfont);
+  font-weight: 400;
+  color: #555555;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 0 15px;
+}
+/* ===== testimonial css ends ===== */
+/* ===== footer css starts ===== */
+#footer{
+  background: #353535;
+  padding: 40px 0;
+}
+#footer .footer-content p{
+  color: var(--white);
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+}
+#footer .footer-head h2{
+  color: var(--white);
+  font-family: var(--hfont);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+#footer .footer-details .information{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+#footer .footer-details .information .icon i{
+  color: var(--white);
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  border-radius: 50%;
+  background: var(--col2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer-details .information .detail ul{
+  margin-left: 10px;
+  /* margin-top: 15px; */
+}
+#footer .footer-details .information .detail ul li{
+  color: var(--white);
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+}
+#footer .footer-list ul{
+  margin-top: -10px;
+}
+#footer .footer-list ul li{
+  margin-bottom: 10px;
+}
+#footer .footer-list ul li a{
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+  transition: all linear 0.3s;
+}
+#footer .footer-list ul li a:hover{
+  color: var(--col2);
+}
+/* ===== footer css ends ===== */
+/* ===== copyright css starts ===== */
+#copyright{
+  background: #555555;
+  padding: 15px 0;
+}
+#copyright p{
+  color: var(--white);
+  font-family: var(--pfont);
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+#copyright p span{
+  text-transform: uppercase;
+  color: var(--col2);
+}
+/* ===== copyright css ends ===== */

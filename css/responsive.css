@@ -1,0 +1,198 @@
+/* ===== for extra small device ===== */
+@media (min-width: 320px) and (max-width: 575px){
+  #header .header .header-text p{
+    font-size: 13px;
+  }
+  #header .header .header-icon ul li a i{
+    margin-left: 10px;
+  }
+  /* ===== header starts ===== */
+  #menu .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #menu .navbar ul li a{
+    margin-left: 0;
+  }
+  /* ===== banner starts ===== */
+  #banner{
+    padding: 60px 0;
+  }
+  #banner .contents{
+    text-align: center;
+  }
+  #banner .contents h2{
+    font-size: 18px;
+  }
+  #banner .contents h1{
+    font-size: 28px;
+  }
+  #banner .contents p{
+    padding-left: 0;
+  }
+  /* ===== about starts ===== */
+  #about{
+    padding-top: 40px;
+  }
+  #about .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #about .text-area p{
+    padding-top: 20px;
+    text-align: justify;
+  }
+  #about .text-area p:last-of-type{
+    padding-top: 0px;
+  }
+  /* ===== service starts ===== */
+  #services{
+    padding-top: 40px;
+  }
+  #services .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #services .service-item{
+    margin-bottom: 20px;
+  }
+  /* ===== gallery starts ===== */
+  #gallery{
+    padding-top: 40px;
+  }
+  #gallery .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ===== team starts ===== */
+  #team{
+    padding-top: 40px;
+  }
+  #team .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ===== testimonial starts ===== */
+  #testimonial{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #testimonial .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #testimonial .testimonial-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* ===== footer starts ===== */
+  #footer{
+    background: #353535;
+    padding: 40px 0;
+  }
+}
+
+/* ===== for small device ===== */
+@media (min-width: 576px) and (max-width: 767px){
+  #header .header .header-text p{
+    font-size: 13px;
+  }
+  #header .header .header-icon ul li a i{
+    margin-left: 10px;
+  }
+  /* ===== header starts ===== */
+  #menu .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #menu .navbar ul li a{
+    margin-left: 0;
+  }
+  /* ===== banner starts ===== */
+  #banner{
+    padding: 60px 0;
+  }
+  #banner .contents{
+    text-align: right;
+  }
+  #banner .contents h2{
+    font-size: 18px;
+  }
+  #banner .contents h1{
+    font-size: 28px;
+  }
+  #banner .contents p{
+    padding-left: 0;
+  }
+  /* ===== about starts ===== */
+  #about{
+    padding-top: 40px;
+  }
+  #about .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #about .text-area p{
+    padding-top: 20px;
+    text-align: justify;
+  }
+  #about .text-area p:last-of-type{
+    padding-top: 0px;
+  }
+  /* ===== service starts ===== */
+  #services{
+    padding-top: 40px;
+  }
+  #services .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #services .service-item{
+    margin-bottom: 20px;
+  }
+  /* ===== gallery starts ===== */
+  #gallery{
+    padding-top: 40px;
+  }
+  #gallery .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ===== team starts ===== */
+  #team{
+    padding-top: 40px;
+  }
+  #team .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ===== testimonial starts ===== */
+  #testimonial{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #testimonial .common-heading .line{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #testimonial .testimonial-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* ===== footer starts ===== */
+  #footer{
+    background: #353535;
+    padding: 40px 0;
+  }
+}
+
+/* ===== for medium device ===== */
+@media (min-width: 768) and (max-width: 991px){
+
+}
