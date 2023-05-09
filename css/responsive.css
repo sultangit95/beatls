@@ -75,6 +75,15 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  #team .team-item .team-image .team-overlay ul li i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  #team .team-item .team-image .team-overlay ul li {
+    margin-bottom: 8px;
+  }
   /* ===== testimonial starts ===== */
   #testimonial{
     padding-top: 40px;
@@ -92,6 +101,9 @@
   #footer{
     background: #353535;
     padding: 40px 0;
+  }
+  #footer .footer-head{
+    margin-top: 20px;
   }
 }
 
