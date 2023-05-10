@@ -305,6 +305,12 @@ ol {
   position: relative;
   overflow: hidden;
 }
+#gallery .img-5,
+#gallery .img-6,
+#gallery .img-7,
+#gallery .img-8{
+  margin-top: 24px;
+}
 #gallery .image-area .image .gl-overlay{
   width: 100%;
   height: 100%;

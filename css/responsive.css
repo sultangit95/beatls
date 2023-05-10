@@ -67,6 +67,10 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  #gallery .img-3,
+  #gallery .img-4{
+  margin-top: 24px;
+}
   /* ===== team starts ===== */
   #team{
     padding-top: 40px;
